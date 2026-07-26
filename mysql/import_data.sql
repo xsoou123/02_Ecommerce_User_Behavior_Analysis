@@ -1,0 +1,9 @@
+LOAD DATA LOCAL INFILE 
+'olist_customers_dataset.csv'
+
+INTO TABLE customers
+
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+
+IGNORE 1 ROWS;
